@@ -1,0 +1,79 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-container .page-square {
+  width: 15px;
+  height: 15px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease; /* Add a smooth transition for background-color */
+}
+
+.pagination-container .page-square.active {
+  background-color: #555;
+  color: white;
+}
+
+/* styles.css */
+
+.detail-container {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.title-column-1,
+.title-column-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-column-1 h1 {
+  font-size: 24px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.left-row-text,
+.right-row-text {
+  width: 50%;
+  float: left;
+}
+
+.left-row-text p,
+.right-row-text p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px 10px;
+}
+
+.title-column-2 button {
+  width: 70px;
+  height: 40px;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  .title-column-1 h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+  }
+  .left-row-text,
+  .right-row-text {
+    width: 100%; /* Show in full width on mobile */
+    float: none; /* Remove float on mobile */
+    cursor: none;
+  }
+  .left-row-text p,
+  .right-row-text p {
+    font-size: 14px;
+  }
+}
