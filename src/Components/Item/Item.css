@@ -12,7 +12,7 @@
   position: relative;
   text-align: center;
   overflow: hidden;
-  margin: 100px 0 50px 0;
+  margin: 10px 0 50px 0;
   width: calc(25% - 10px);
   cursor: pointer;
 }
@@ -35,7 +35,7 @@
 @media (max-width: 768px) {
   .item-container {
     height: 80vh;
-    margin: 30px auto;
+    margin: 10px auto 30px auto;
   }
 
   .item-main {

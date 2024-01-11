@@ -16,6 +16,7 @@ const Home = () => {
 
   return (
     <div>
+      <h1 className="item-main-title">မြန်မာလအ‌သေးစိတ်များ</h1>
       <div className="item-container">
         <Item
           months={months}

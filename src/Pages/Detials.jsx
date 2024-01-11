@@ -11,7 +11,7 @@ const Detials = (prop) => {
   const month = filteredMonth[0];
 
   const onClickHandler = () => {
-    navigate("/");
+    navigate("..");
   };
 
   return (
